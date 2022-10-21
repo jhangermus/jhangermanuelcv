@@ -27,12 +27,14 @@ html{
     background-color:aqua;
     position:fixed;
     bottom: 0;
+    height: 11%;
 
 }
 .feet{
     display: flex;
     width: 5%;
     margin: 1%;
+    padding: 1%;
 }
 img{
     width: 100%;
