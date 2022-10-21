@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+.nav{
+    border-color: blanchedalmond;
+    background-color: gold;
+    font-size: 2rem;
+    height: 4rem;
+    padding-top: 1.0rem;
+}
+.nav li{
+    display: inline-block;
+    font-size: 2rem;
+   
+   
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:aqua;
+    position:fixed;
+    bottom: 0;
+
+}
+.feet{
+    display: flex;
+    width: 5%;
+    margin: 1%;
+}
+img{
+    width: 100%;
+    border-radius: 15%;
+    
+}
+.foto{
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 5%;
+    display: flex;
+    
+}
+div{
+    color: ghostwhite;
+}
+
+.nav li:hover{
+    color: red;
+ 
+}
+.yo{
+    font-size: 5rem;
+    width: 30vw;
+    margin: 5%;
+    margin-right: 5rem;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav li::before{
+    content: "   |    ";
+}
+.buttonClass {
+    font: size 1.5rem;;
+    font-family:Arial;
+    width:14rem;
+    height:5rem;
+    border-width:1px;
+    color:#fff;
+    border-color:#18ab29;
+    font-weight:bold;
+    border-top-left-radius:28px;
+    border-top-right-radius:28px;
+    border-bottom-left-radius:28px;
+    border-bottom-right-radius:28px;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:#44c767;
+    margin-left: 15rem;
+    transition: 1s;
+  }
+  .buttonClass:hover {
+    background: #5cbf2a
+  }
+
+.lista{
+    margin-left: 2rem;
+    list-style-type: none;
+}
+
+.españolabout, .englishabout{
+    font-size: 2.4rem;
+    margin: 2%;
+}
+
+.español, .english{
+    font-size: 3.2rem;
+    margin: 2%;
+    border-style:groove;
+    
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.divul{
+    background-color:aqua;
+    margin: 5%;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.ulcert {
+    
+    font-size: 2.4rem;
+    margin: 2%;
+    color: white;
+    height: 80vh;
+    align-items: center;
+}
+
+.ulcert li{
+    margin: 2%;
+    
+}
+
+
+
+ul a:hover{
+    color: red;
+}
+
+.contacto{
+    font-size: 2.4rem;
+    margin: 2%;
+    text-align: center;
+    
+    
+}
+.contacto div{
+    margin: 2%;
+    padding: 2%;
+    
+}
+
+
+.buttonClass2{
+
+    padding: 1rem;
+    font-size:2rem;
+    font-family:Arial;
+    width:2rem;
+    height:5rem;
+    border-width:0.1rem;
+    color:#fff;
+    border-color:#4b8f29;
+    font-weight:bold;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    box-shadow: 0rem 1.rem 1.4rem -0.7rem #3e7327;
+    text-shadow: 0rem 0.1rem 0rem #5b8a3c;
+    background:linear-gradient(#77b55a, #72b352);
+  }
+  
+  .buttonClass2:hover {
+    background: linear-gradient(#72b352, blue);
+  }
+               
+.contacto img{
+    width: 2%;
+}
+
+.skills{
+    font-size: 2.4rem;
+    color: white;
+    margin: 5%;
+    text-align: center;
+}
+
+.skills li{
+    margin: 2%;
+}
+
+.sk{
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 2%;
+    transition: 2s;
+    font-style:italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media  (max-width: 400px){
+    .español, .english{
+        width: 75%;
+        
+    }
+    .españolabout, .englishabout{
+        font-size: 50%;
+    }
+    .nav{
+        width: 100%;
+        height: 100%;
+    }
+    .yo{
+        font-size: 200%;
+    }
+    
+    .divul{
+        width: 100%;
+    }
+    .ulcert{
+        font-size: 100%;
+    }
+
+.mainskills{
+    width: 50vw;
+    font-size: 50%;
+    text-align: center;
+}
+    
+}
